@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: orange;
+  font-family: Orelega One;
+  font-size: 23px;
+  text-align: center;
+
+}
+
+article:nth-child(even){
+  background-color: blue;
+}
+article:nth-child(odd){
+  background-color: pink;
+}
+
+
+
+li:nth-child(-n+6) {    
+  color: purple;
+}
+
+.fa-square-instagram {
+  color: brown;
+}
+h1.heading{
+  background-image: url("/Users/noahtesema/Desktop/portfolio/images/ocean.jpg");
+  opacity: 0.95;
+}
+
+h1 {
+  background-image: url("/Users/noahtesema/Desktop/portfolio/images/grass.jpg");
+  font-weight: bold;
+  color: white;
+  border-width: thick;
+  border-style: solid;
+  border-color: purple;
+  padding: 22px;
+  margin: 50px;
+  text-align: center;
+  opacity: 0.95;
+
+}
+
+h2 {
+  color: #ff0057;
+  font-weight: bold;
+  border: 2px solid black;
+  background-color: yellow;
+
+}
+
+
+img {
+  border: 15px solid rgb(155, 254, 188);
+}
+
+a:hover {
+  color: yellow;
+}
+
+h2:hover {
+  color: turquoise;
+  border: 2px solid black;
+
+}
+
+.paragraph {
+  border-width: thick;
+  border-style: dotted;
+  border-color: #fce45b;
+  margin: 50px 50px;
+  background-color: #fffeb7;
+}
+
+footer {
+  border-width: thick;
+  border-style: solid;
+  border-color: purple;
+  width: 500px;
+  position: relative;
+  left: 468px;
+  background-image: url("https://d3mvlb3hz2g78.cloudfront.net/wp-content/uploads/2014/03/thumb_720_450_dreamstime_xl_13444388-custom.jpg");
+  color: white;
+  opacity: 0.9;
+}
+
+main {
+  display: flex;
+  flex-direction: column-reverse;
+  border-width: thick;
+  border-style: dotted;
+  border-color: #fce45b;
+  margin: 50px 50px;
+  background-color: #fffeb7;
+
+}
+a[href="about-me.html"]{
+  border-width: thick;
+  border-style: solid;
+  border-color: #fce45b;
+}
+
+a[href="index.html"]{
+  border-width: thick;
+  border-style: solid;
+  border-color: #fce45b;
+}
+
+footer.f2{
+  border-width: thick;
+  border-style: solid;
+  border-color: purple;
+  width: 500px;
+  position: relative;
+  left: 468px;
+  background-image: url("https://images.unsplash.com/photo-1484291470158-b8f8d608850d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=");
+  color: white;
+  opacity: 0.9;
+}
