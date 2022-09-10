@@ -28,12 +28,12 @@ li:nth-child(-n+6) {
   color: brown;
 }
 h1.heading{
-  background-image: url("/Users/noahtesema/Desktop/portfolio/images/ocean.jpg");
+  background-image: url("portfolio3/images/ocean.jpg");
   opacity: 0.95;
 }
 
 h1 {
-  background-image: url("/Users/noahtesema/Desktop/portfolio/images/grass.jpg");
+  background-image: url("portfolio3/images/grass.jpg");
   font-weight: bold;
   color: white;
   border-width: thick;
